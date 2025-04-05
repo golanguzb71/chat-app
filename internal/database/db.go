@@ -2,7 +2,6 @@ package database
 
 import (
 	"chat-app/internal/config"
-	"chat-app/internal/model"
 	"fmt"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -17,16 +16,16 @@ func Connect(cfg *config.Config) (*gorm.DB, error) {
 		return nil, err
 	}
 
-	err = db.AutoMigrate(
-		&model.User{},
-		&model.Message{},
-		&model.Group{},
-		&model.GroupMember{},
-		&model.BlockedUser{},
-	)
-	if err != nil {
-		return nil, err
-	}
+	//err = db.AutoMigrate(
+	//	&model.User{},
+	//	&model.Message{},
+	//	&model.Group{},
+	//	&model.GroupMember{},
+	//	&model.BlockedUser{},
+	//)
+	//if err != nil {
+	//	return nil, err
+	//}
 
 	return db, nil
 }
