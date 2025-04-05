@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7188dd5f-b198-4bce-8fc8-2ae1f03eb96b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/internal/repository/chat_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/repository/chat_repository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/fx.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/module.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/module.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/wire.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/handler/chat_handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/handler/chat_handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/scheduler/scheduler.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/scheduler/scheduler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/service/chat_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/service/chat_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/websocket/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/websocket/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/websocket/hub.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/websocket/hub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/websocket/upgrader.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/websocket/upgrader.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
